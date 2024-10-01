@@ -1,0 +1,11 @@
+local_costmap:
+   global_frame: odom
+   robot_base_frame: robot_footprint
+   update_frequency: 5.0
+   publish_frequency: 2.0
+   static_map: false # for static map 
+   rolling_window: true # for dynamic map
+   width: 4.0 # width of dynamic map 
+   height: 4.0 # height of dynamic map 
+   resolution: 0.05 # resolution of map 
+   transform_tolerance: 0.5

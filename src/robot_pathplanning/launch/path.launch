@@ -1,0 +1,19 @@
+<?xml version ="1.0"?>
+<launch>
+  <!-- Arguments -->
+  <arg name="map_file" default="$(find robot_mapping)/maps/project_map.yaml"/>
+
+  <!-- AMCL -->
+  <include file="$(find robot_localization)/launch/amcl.launch"/>
+
+  <!-- move_base -->
+  <include file="$(find robot_pathplanning)/launch/move_base.launch"/>
+
+  <!-- Gmapping -->
+  <!-- <include file="$(find robot_mapping)/launch/gmapping.launch"/> -->
+
+  <!-- urdf -->
+  <include file="$(find robot_pkg)/launch/robot.launch"/>
+  
+  
+</launch>

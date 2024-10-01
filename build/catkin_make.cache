@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/ahmedkhalifa/Grobot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ahmedkhalifa/Grobot_ws/install -G Unix Makefiles
